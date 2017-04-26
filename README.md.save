@@ -1,0 +1,78 @@
+# Link para o documento do drive com Levantamento de Requisitos.
+Segue o link: 
+
+# Mer e ER prontos.
+Terminei o MER e o ER. Falta agora vocês subirem ele no banco e popular.
+Depois gerar o SQL de acordo com as especificações do trabalho.
+
+
+# Ferramenta que será usada.
+Galera, o Astah é pago. A licensa pra estudante dura menos de 30 dias e não acredito que o prof tenha acesso. Como nas especificações dele não podemos usar Case proprietário, acabei perdendo mais uma tarde e noite pra tentar o DB-main....e consegui, por fim.
+Se você tiverem problemas é o seguinte: O Win tem que estar com o ServicePack 1 e possuir o Visual Studio C++ 2015. Pesquisei bastante e depois de tentar milhões de vezes consegui.
+
+
+PS: Vão precisar do jdk e jre versão 8 ou superior.
+
+# Atributos das entidades
+Galera, segue o PDF com as atributos das entidades. É bom ainda pensarmos sobre eles. Favor usar o doc .PDF e não o .ODT.
+
+
+# Links para os Geradores de Dados Aleatórios.
+http://pt.fakenamegenerator.com/ 
+
+http://www.generatedata.com/
+
+http://www.theonegenerator.com/pt/geradordesql
+
+http://www.4devs.com.br/gerador_de_empresas
+
+http://www.wjr.eti.br/nameGenerator/
+
+
+# LBD - Postagens de documentos sobre o trabalho de Laboratório de Banco de Dados.
+Este espaço será usado para que possamos depositar cada um dos artefatos do projeto para nossa discussão, visualização e alteração. Também poderemos postar links úteis sobre o tema.
+
+# AGENDA
+# Parte 1 - 22/04/2017:
+-Artefato 1: Artefato tipo texto, sendo um documento em formato PDF com a descrição detalhada do contexto no qual será desenvolvido o projeto. Deve conter os requisitos o sistema;
+
+-Artefato 2: Artefato do tipo Diagrama. MER e ER em formato PDF. Deve ser implementado em uam ferramenta CASE capaz ce modelar do MER para o ER;
+
+-Artefato 3: Artefato do tipo Diagrama. Apresentar ER derivado do MER em formato PDF. Deve ser desenvovido em ferramenta CASE;
+
+-Artefto 4: Artefato tipo texto, sendo um documento em formato PDF com no máximo 2 páginas e mesma formatação do item a (Calibri tam 10) descrevendo:
+  .Descrição das dependências funcionais que valem no modelo relacional apresentado
+(especifique as dependências funcionais que valem no projeto, e se for o caso, mostre as
+dependências funcionais que valem no contexto mas que não puderam ser satisfeitas no
+modelo);
+  .Um estudo sobre a forma normal que se encontra o modelo (lembre-se que o modelo estará na
+menor forma normal apresentada pelas relações presentes no mesmo);
+  .uma discussão sobre se houve necessidade de alterar o modelo para melhorar a qualidade do
+projeto (em termos de manutenção de dependências funcionais e de normalização).
+
+-Artefato 5: Artefato tipo Base de Dados.
+  .Apresentar uma base de dados populada com a implementação do
+modelo relacional (em um SGBD relacional ou objeto relacional). Este artefato deve ser entregue apenas
+no sistema TIDIA (um backup completo do banco de dados). O grupo deverá disponibilizar um script
+SQL (formato ASCII -- .txt) responsável por efetuar a população do banco de dados por completo.
+
+-Artefato 6: Artefato de texto SQL.
+  .Apresentar 4 consultas em SQL implementadas para seu sistema. Essas
+consultas devem ser as mais complexas que o grupo projetou para o sistema e devem considerar apenas
+o uso de instruções SQL (a linguagem de programação do SGBD não deve ser considerada na resolução
+destas consultas). Pelo menos duas dessas consultas devem considerar funções de grupo. Este artefato
+deve ser entregue no TIDIA -- consultas em SQL em arquivo ASCII (.txt) prontas para serem testadas no
+SGBD.
+
+
+# GIT PRIMEIROS PASSOS:
+https://git-scm.com/book/pt-br/v1/Primeiros-passos-No%C3%A7%C3%B5es-B%C3%A1sicas-de-Git
+
+# GIT COMANDOS INICIAIS:
+https://tableless.com.br/alguns-comandos-git/
+
+# MODELO ENTIDADE RELACIONAMENTO - MER
+http://www-usr.inf.ufsm.br/~andrezc/bd/er.pdf
+
+# MODELO ENTIDADE RELACIONAMENTO EXTENDIDO - MER-X
+http://wiki.icmc.usp.br/images/e/ed/Aula_3_eduardo.pdf

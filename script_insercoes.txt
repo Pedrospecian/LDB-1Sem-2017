@@ -1,0 +1,640 @@
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (1, 'Zuleica', 'Gomez', 'Rua Francisco Ferreira Mello', 562, 'São José dos Campos', 'zuleica.gomez@gmail.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (2, 'Fernanda', 'Gutenberg Faria', 'Rua Ulderico Giulietti', 398, 'Itaquaquecetuba', 'fernanda.gutenberg_faria@gmail.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (3, 'David', 'Ribeiro', 'Rua Fernando Veiga', 342, 'Mogi das Cruzes', 'david.ribeiro@hotmail.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (4, 'Célio', 'Machado Souza', 'Rua Dário Pereira', 621, 'Jundiaí', 'celio.machado_souza@gmail.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (5, 'Eliana', 'Oliveira Prado', 'Rua da Conceição', 984, 'Mogi das Cruzes', 'eliana.oliveira_prado@outlook.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (6, 'Natália', 'Simão Moraes', 'Avenida Francisco Lopes', 24, 'Mogi das Cruzes', 'natalia.simao_moraes@hotmail.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (7, 'Kléber', 'Spinoza Ferreira', 'Rua da Conceição', 115, 'Mogi das Cruzes', 'kleber.spinoza_ferreira@yahoo.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (8, 'Alan', 'Mercadante', 'Rua Francisco Poliza', 349, 'Mogi das Cruzes', 'alan.mercadante@outlook.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (9, 'Laís', 'de Matos', 'Rua Francisco Poliza', 1000, 'Santo André', 'lais.de_matos@hotmail.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (10, 'Vitor Hugo', 'Batista', 'Rua Barão de Mauá', 73, 'Santos', 'vitor_hugo.batista@outlook.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (11, 'Hector', 'de Jesus', 'Rua Francisco Ferreira Mello', 572, 'São Paulo', 'hector.de_jesus@yahoo.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (12, 'João', 'Brandão', 'Avenida Francisco Lopes', 58, 'Santo André', 'joao.brandao@yahoo.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (13, 'José', 'Fernandes Ribeiro', 'Avenida Dom Pedro II', 439, 'Itaquaquecetuba', 'jose.fernandes_ribeiro@yahoo.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (14, 'Tibério', 'Fagundes Macedo', 'Rua Felipe Pinel', 175, 'São José dos Campos', 'tiberio.fagundes_macedo@hotmail.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (15, 'Ana', 'Pinheiro Peixoto', 'Avenida Brasil', 276, 'São Bernardo', 'ana.pinheiro_peixoto@outlook.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (16, 'Cristiane', 'Assis Machado', 'Rua Francisco Poliza', 15, 'São José dos Campos', 'cristiane.assis_machado@yahoo.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (17, 'Guilherme', 'Covas', 'Rua Terceiro-Sargento Euber Queiroz Júnior', 822, 'Santos', 'guilherme.covas@hotmail.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (18, 'Leandro', 'Barbosa', 'Rua Barão de Mauá', 290, 'São Bernardo', 'leandro.barbosa@outlook.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (19, 'Vladmir', 'Britto', 'Rua José Firmino', 819, 'Mogi das Cruzes', 'vladmir.britto@outlook.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (20, 'Júlio', 'Simão Rezende', 'Rua Barão de Mauá', 306, 'São Bernardo', 'julio.simao_rezende@outlook.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (21, 'Adriana', 'Simão Spósito', 'Rua Ferraz de Vasconcelos', 237, 'São Bernardo', 'adriana.simao_sposito@hotmail.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (22, 'Olavo', 'Soares', 'Rua Terceiro-Sargento Euber Queiroz Júnior', 838, 'Jundiaí', 'olavo.soares@yahoo.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (23, 'Alberto', 'Campos', 'Rua Eliseu Epaminondas', 529, 'Itaquaquecetuba', 'alberto.campos@outlook.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (24, 'Cristiane', 'de Matos', 'Rua Benjamin Constant', 165, 'São Bernardo', 'cristiane.de_matos@gmail.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (25, 'Bruna', 'Rezende', 'Avenida André Azevedo', 178, 'Itaquaquecetuba', 'bruna.rezende@gmail.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (26, 'Brenda', 'Beltrão', 'Rua Claudi Novaes', 30, 'Santos', 'brenda.beltrao@outlook.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (27, 'Diego', 'Brandão', 'Avenida André Azevedo', 57, 'São Bernardo', 'diego.brandao@yahoo.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (28, 'Natália', 'Brandão', 'Avenida Paulista', 698, 'Jundiaí', 'natalia.brandao@outlook.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (29, 'Reinaldo', 'Tristán', 'Estrada Pedra Balão', 84, 'São Bernardo', 'reinaldo.tristan@gmail.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (30, 'John', 'Fagundes Macedo', 'Rua Fernando Veiga', 478, 'Jundiaí', 'john.fagundes_macedo@yahoo.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (31, 'Tibério', 'Fonseca', 'Rua José Pereira de Anchieta', 136, 'Itaquaquecetuba', 'tiberio.fonseca@outlook.com');
+
+INSERT INTO CLIENTE (id_cli, nome, sobrenome, rua, numero, cidade, email) VALUES (32, 'Miranda', 'Rezende Bittencourt', 'Rua Eliseu Epaminondas', 153, 'Itaquaquecetuba', 'miranda.rezende_bittencourt@yahoo.com');
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (1, 'Isabella', 'Silveira Costa', 'Rua Terceiro-Sargento Euber Queiroz Júnior', 444, 'Santos', 3210.00, to_date('22-01-1979', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (2, 'Ednei', 'Torquato Pereira', 'Rua José Pereira de Aquino', 230, 'Jundiaí', 4570.00, to_date('22-01-1964', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (3, 'Danilo', 'Bandeira Vilaça', 'Rua Eliseu Epaminondas', 13, 'Santos', 1800.00, to_date('09-02-1968', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (4, 'Cláudia', 'Simão', 'Rua Diana Ortiz', 899, 'Santo André', 3120.00, to_date('08-09-1986', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (5, 'Carlos', 'Oliveira Cunha', 'Rua da Conceição', 279, 'Santos', 1240.00, to_date('26-08-1989', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (6, 'Adalto', 'Mercadante', 'Avenida Francisco Lopes', 261, 'Santos', 4440.00, to_date('26-04-1988', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (7, 'Timóteo', 'Silva', 'Avenida André Azevedo', 618, 'Itaquaquecetuba', 4370.00, to_date('22-10-2011', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (8, 'Raul', 'Moreno', 'Rua Felipe Pinel', 955, 'São Bernardo', 2260.00, to_date('13-06-2011', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (9, 'Raíssa', 'Azevedo', 'Rua José Firmino', 395, 'Jundiaí', 1030.00, to_date('24-04-1988', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (10, 'Cristina', 'Conde', 'Rua Ferraz de Vasconcelos', 423, 'Mogi das Cruzes', 1180.00, to_date('26-02-1968', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (11, 'Diana', 'Castanho', 'Rua Diana Ortiz', 408, 'Santos', 4190.00, to_date('17-03-2004', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (12, 'Luiz Augusto', 'Siqueira', 'Rua Otto Unger', 384, 'São Bernardo', 3150.00, to_date('16-06-1981', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (13, 'Maria', 'de Matos', 'Rua José Pereira de Anchieta', 179, 'São Bernardo', 1160.00, to_date('08-11-2006', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (14, 'Alfonso', 'Oliveira Campos', 'Rua Otto Unger', 960, 'Santos', 1540.00, to_date('12-09-2006', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (15, 'Celso', 'Bandeira', 'Rua da Conceição', 424, 'São Paulo', 1140.00, to_date('26-10-1990', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (16, 'Conrado', 'Castelo Branco', 'Rua José Pereira de Aquino', 534, 'Guarulhos', 4190.00, to_date('28-07-1962', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (17, 'Laís', 'Gutenberg Faria', 'Rua João de Barros', 16, 'Jundiaí', 890.00, to_date('15-12-1967', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (18, 'Alan', 'Vilaça', 'Rua do Patriarca', 592, 'São Bernardo', 4300.00, to_date('28-09-1961', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (19, 'Amanda', 'Spinoza Fonseca', 'Rua Beto Dandini', 910, 'São Bernardo', 890.00, to_date('03-01-1982', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (20, 'Caetano', 'Moreira Barbosa', 'Avenida Paulista', 460, 'Jundiaí', 4670.00, to_date('27-08-2014', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (21, 'Ernesto', 'Brandão', 'Rua Eliseu Epaminondas', 587, 'Guarulhos', 3640.00, to_date('21-01-1971', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (22, 'Wilson', 'do Porto', 'Rua Fernando Veiga', 631, 'Santos', 2550.00, to_date('30-12-1985', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (23, 'Lucas', 'Bandeira Cruz', 'Rua Benjamin Constant', 59, 'Jundiaí', 1410.00, to_date('11-05-1969', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (24, 'Sílvio', 'Pinheiro Gonçalves', 'Rua Antonio Agu', 318, 'São José dos Campos', 1940.00, to_date('05-03-1975', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (25, 'Leonardo', 'Torquato Pereira', 'Rua do Patriarca', 872, 'Santos', 4610.00, to_date('01-10-2013', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (26, 'Paulo', 'Oliveira Prado', 'Rua Fernando Veiga', 473, 'Jundiaí', 1640.00, to_date('11-04-1967', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (27, 'Júlio', 'Gonçalves Pinheiro', 'Avenida Dom Pedro II', 492, 'Santo André', 2240.00, to_date('24-02-2000', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (28, 'Ubirajara', 'Gutenberg', 'Rua Ferraz de Vasconcelos', 492, 'Guarulhos', 1380.00, to_date('26-03-1988', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (29, 'Juliane', 'Assis Macedo', 'Avenida Paulista', 67, 'São Paulo', 2870.00, to_date('03-04-1968', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (30, 'Reinaldo', 'Beltrão', 'Rua Antonio Agu', 668, 'Jundiaí', 2500.00, to_date('11-09-2016', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (31, 'Fernanda', 'Castelo Branco', 'Rua Claudi Novaes', 259, 'Santos', 3470.00, to_date('08-05-1986', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO FUNCIONARIO (id_funcionario, nome, sobrenome, rua, numero, cidade, salario, data_admissao, MOTORISTA, AJUDANTE) VALUES (32, 'Paulo', 'Spósito', 'Rua Francisco Lopes', 736, 'Mogi das Cruzes', 4320.00, to_date('10-11-1990', 'dd-mm-yyyy'), '', '' );
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (1, 15, 'Adelaide', 'Vasconcelos', 'irmã(o)', to_date('02-09-2005', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (2, 18, 'André', 'Silviano', 'irmã(o)', to_date('08-08-1989', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (3, 14, 'Caetano', 'Almeida Pereira', 'irmã(o)', to_date('29-08-1996', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (4, 4, 'Diego', 'Soares', 'irmã(o)', to_date('15-07-2009', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (5, 3, 'Laura', 'Pereira', 'filho(a)', to_date('05-10-1976', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (6, 26, 'Milena', 'Martins', 'filho(a)', to_date('09-07-1972', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (7, 19, 'Ubirajara', 'Villalobos Assunção', 'filho(a)', to_date('21-11-2003', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (8, 17, 'Cristina', 'Torquato Cruz', 'filho(a)', to_date('02-11-1975', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (9, 14, 'Emílio', 'Mello', 'filho(a)', to_date('05-04-1986', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (10, 12, 'Roberta', 'Cruz', 'irmã(o)', to_date('26-01-2008', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (11, 14, 'Hector', 'Fernandes Ribeiro', 'irmã(o)', to_date('05-03-1993', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (12, 9, 'Caetano', 'Moreira Fagundes', 'irmã(o)', to_date('20-11-1998', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (13, 17, 'Tibério', 'Beltrão', 'filho(a)', to_date('08-08-1987', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (14, 20, 'Gabriela', 'Moreira Spinoza', 'irmã(o)', to_date('22-07-1980', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (15, 22, 'Dirceu', 'Martinelli', 'filho(a)', to_date('26-07-2015', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (16, 30, 'Soraia', 'Gomez Fonseca', 'filho(a)', to_date('02-10-2002', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (17, 32, 'Valdete', 'Jucá', 'filho(a)', to_date('10-09-1967', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (18, 25, 'Cláudio', 'Antunes Moura', 'filho(a)', to_date('21-04-1977', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (19, 9, 'Leonardo', 'Faria', 'filho(a)', to_date('05-06-1974', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (20, 9, 'Natália', 'Videira', 'filho(a)', to_date('22-04-1985', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (21, 30, 'Ivone', 'Gutenberg', 'irmã(o)', to_date('03-08-1998', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (22, 17, 'Paula', 'Bittencourt', 'filho(a)', to_date('14-05-2002', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (23, 9, 'Silvana', 'Tristán', 'filho(a)', to_date('04-11-2012', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (24, 6, 'Pedro Henrique', 'Villalobos Fonseca', 'filho(a)', to_date('13-06-2009', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (25, 31, 'Laís', 'Pequeno', 'filho(a)', to_date('29-06-2014', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (26, 14, 'Ana Maria', 'Fonseca', 'irmã(o)', to_date('27-08-1977', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (27, 12, 'Erasmo', 'Peixoto', 'irmã(o)', to_date('12-12-1964', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (28, 10, 'Jaqueline', 'Martinelli', 'filho(a)', to_date('09-09-2011', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (29, 25, 'Jandira', 'Oliveira Cunha', 'filho(a)', to_date('03-08-2010', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (30, 32, 'Gabriel', 'Torquato Pereira', 'filho(a)', to_date('02-10-2015', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (31, 9, 'Odete', 'Fagundes', 'filho(a)', to_date('31-05-1982', 'dd-mm-yyyy'));
+
+INSERT INTO DEPENDENTE (id_dependente, id_funcionario, nome, sobrenome, parentesco, data_nascimento) VALUES (32, 26, 'Murilo', 'Batista Pires', 'filho(a)', to_date('03-01-2006', 'dd-mm-yyyy'));
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (1, 'JWI-7323', '90 km/h ', 27, 30);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (2, 'ACY-5408', '240 km/h ', 3, 18);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (3, 'RWG-4526', '200 km/h ', 20, 15);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (4, 'NNC-4861', '200 km/h ', 19, 31);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (5, 'AJK-7304', '240 km/h ', 22, 20);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (6, 'JHI-2140', '100 km/h ', 23, 9);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (7, 'WQV-5706', '80 km/h ', 29, 13);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (8, 'GXY-5782', '230 km/h ', 17, 25);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (9, 'AYW-8142', '80 km/h ', 26, 1);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (10, 'ETA-4072', '210 km/h ', 20, 20);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (11, 'AYA-7651', '210 km/h ', 7, 4);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (12, 'BTE-7767', '110 km/h ', 4, 17);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (13, 'ERO-0517', '110 km/h ', 19, 17);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (14, 'MRH-2213', '200 km/h ', 8, 24);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (15, 'AHP-8832', '110 km/h ', 2, 31);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (16, 'IXB-0815', '100 km/h ', 1, 11);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (17, 'HMO-4346', '230 km/h ', 9, 20);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (18, 'MPX-5368', '230 km/h ', 18, 21);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (19, 'JHB-1541', '200 km/h ', 16, 7);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (20, 'RRS-6154', '100 km/h ', 10, 2);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (21, 'RUR-3643', '80 km/h ', 22, 16);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (22, 'XDN-5241', '170 km/h ', 9, 29);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (23, 'TQM-0354', '240 km/h ', 13, 1);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (24, 'XMF-4178', '140 km/h ', 4, 17);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (25, 'QQM-0270', '170 km/h ', 19, 9);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (26, 'YMW-1631', '120 km/h ', 8, 18);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (27, 'GFI-2675', '230 km/h ', 19, 2);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (28, 'HCT-4608', '240 km/h ', 9, 13);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (29, 'URU-5230', '220 km/h ', 22, 20);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (30, 'GYT-2215', '200 km/h ', 28, 4);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (31, 'XNJ-3406', '200 km/h ', 16, 22);
+
+INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (32, 'DMN-3712', '200 km/h ', 29, 14);
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (1, '820 kg' ,'Rua Francisco Lopes', 133, 'São José dos Campos', 'Itaim Paulista', 25, 1570.00, 32 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (2, '600 kg' ,'Rua Antonio Agu', 575, 'Santos', 'Itaim Paulista', 8, 110.00, 8 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (3, '780 kg' ,'Rua Doutor Eduardo de Souza Aranha', 528, 'Jundiaí', 'Casa Verde', 17, 630.00, 10 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (4, '240 kg' ,'Rua Francisco Lopes', 386, 'São Bernardo', 'Pirituba', 9, 680.00, 2 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (5, '580 kg' ,'Rua Felipe Pinel', 779, 'Mogi das Cruzes', 'Lapa', 32, 710.00, 23 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (6, '340 kg' ,'Rua José Pereira de Aquino', 918, 'Guarulhos', 'Casa Verde', 22, 1060.00, 3 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (7, '130 kg' ,'Rua Ferraz de Vasconcelos', 661, 'Santos', 'Liberdade', 12, 1090.00, 28 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (8, '570 kg' ,'Rua Alto do Bonfim', 807, 'Guarulhos', 'Penha', 27, 80.00, 23 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (9, '470 kg' ,'Rua Ulderico Giulietti', 283, 'São Bernardo', 'Vila Madalena', 22, 650.00, 20 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (10, '470 kg' ,'Rua Claudi Novaes', 969, 'São Bernardo', 'Pirituba', 9, 1450.00, 19 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (11, '420 kg' ,'Rua do Patriarca', 776, 'Itaquaquecetuba', 'Itaim Paulista', 22, 1840.00, 32 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (12, '830 kg' ,'Rua Eliseu Epaminondas', 449, 'Santo André', 'Casa Verde', 18, 1670.00, 13 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (13, '870 kg' ,'Rua Barão de Mauá', 992, 'Santo André', 'Casa Verde', 22, 390.00, 26 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (14, '330 kg' ,'Avenida Brasil', 755, 'Guarulhos', 'Vila Mariana', 19, 620.00, 23 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (15, '930 kg' ,'Avenida Dom Pedro II', 320, 'Jundiaí', 'Penha', 3, 990.00, 11 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (16, '340 kg' ,'Rua Dário Pereira', 237, 'Guarulhos', 'Itaim Paulista', 17, 150.00, 3 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (17, '920 kg' ,'Avenida Francisco Lopes', 1, 'São Bernardo', 'Itaim Paulista', 9, 1360.00, 31 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (18, '370 kg' ,'Avenida André Azevedo', 506, 'Itaquaquecetuba', 'Vila Madalena', 15, 10.00, 29 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (19, '580 kg' ,'Estrada Pedra Balão', 123, 'São Bernardo', 'Penha', 30, 180.00, 25 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (20, '1070 kg' ,'Rua Francisco Poliza', 486, 'São Paulo', 'Liberdade', 6, 1350.00, 12 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (21, '180 kg' ,'Rua do Patriarca', 680, 'Santos', 'Lapa', 5, 370.00, 30 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (22, '800 kg' ,'Rua Francisco Lopes', 435, 'Jundiaí', 'Centro', 13, 1780.00, 27 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (23, '930 kg' ,'Rua Eliseu Epaminondas', 589, 'Itaquaquecetuba', 'Penha', 26, 40.00, 4 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (24, '740 kg' ,'Rua Beto Dandini', 281, 'São Bernardo', 'Mooca', 18, 930.00, 12 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (25, '400 kg' ,'Avenida Brasil', 612, 'Mogi das Cruzes', 'Casa Verde', 23, 1880.00, 26 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (26, '590 kg' ,'Rua Doutor Eduardo de Souza Aranha', 139, 'São Paulo', 'Casa Verde', 8, 1820.00, 24 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (27, '650 kg' ,'Rua da Conceição', 503, 'Mogi das Cruzes', 'Penha', 22, 1860.00, 32 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (28, '1050 kg' ,'Rua Dário Pereira', 1000, 'São José dos Campos', 'Pirituba', 27, 1350.00, 8 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (29, '440 kg' ,'Rua Antonio Agu', 517, 'São José dos Campos', 'Vila Mariana', 6, 640.00, 26 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (30, '1010 kg' ,'Rua Fernando Veiga', 929, 'São José dos Campos', 'Casa Verde', 19, 330.00, 5 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (31, '360 kg' ,'Avenida Paulista', 759, 'Itaquaquecetuba', 'Centro', 11, 1500.00, 18 );
+
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (32, '140 kg' ,'Rua Francisco Lopes', 129, 'São Bernardo', 'Mooca', 17, 240.00, 32 );
+
+INSERT INTO ENTREGA (id_ped, data_entrega, horario_entrega, num_nf_entrega, id_vei) VALUES (1, to_date('15-01-1973', 'dd-mm-yyyy'), '09:23 hs', 29, 6);
+
+INSERT INTO ENTREGA (id_ped, data_entrega, horario_entrega, num_nf_entrega, id_vei) VALUES (2, to_date('05-12-1966', 'dd-mm-yyyy'), '17:25 hs', 20, 3);
+
+INSERT INTO ENTREGA (id_ped, data_entrega, horario_entrega, num_nf_entrega, id_vei) VALUES (3, to_date('02-11-1971', 'dd-mm-yyyy'), '04:20 hs', 9, 27);
+
+INSERT INTO ENTREGA (id_ped, data_entrega, horario_entrega, num_nf_entrega, id_vei) VALUES (4, to_date('06-06-2002', 'dd-mm-yyyy'), '17:14 hs', 8, 2);
+
+INSERT INTO ENTREGA (id_ped, data_entrega, horario_entrega, num_nf_entrega, id_vei) VALUES (5, to_date('09-12-1972', 'dd-mm-yyyy'), '01:30 hs', 14, 17);
+
+INSERT INTO ENTREGA (id_ped, data_entrega, horario_entrega, num_nf_entrega, id_vei) VALUES (6, to_date('03-07-2001', 'dd-mm-yyyy'), '07:42 hs', 2, 24);
+
+INSERT INTO ENTREGA (id_ped, data_entrega, horario_entrega, num_nf_entrega, id_vei) VALUES (7, to_date('23-07-2015', 'dd-mm-yyyy'), '06:37 hs', 31, 17);
+
+INSERT INTO ENTREGA (id_ped, data_entrega, horario_entrega, num_nf_entrega, id_vei) VALUES (8, to_date('18-08-1964', 'dd-mm-yyyy'), '08:25 hs', 1, 20);
+
+INSERT INTO ENTREGA (id_ped, data_entrega, horario_entrega, num_nf_entrega, id_vei) VALUES (9, to_date('28-03-1975', 'dd-mm-yyyy'), '18:01 hs', 27, 9);
+
+INSERT INTO ENTREGA (id_ped, data_entrega, horario_entrega, num_nf_entrega, id_vei) VALUES (10, to_date('14-05-2004', 'dd-mm-yyyy'), '23:18 hs', 26, 13);
+
+INSERT INTO ENTREGA (id_ped, data_entrega, horario_entrega, num_nf_entrega, id_vei) VALUES (11, to_date('20-02-1972', 'dd-mm-yyyy'), '06:12 hs', 27, 23);
+
+INSERT INTO ENTREGA (id_ped, data_entrega, horario_entrega, num_nf_entrega, id_vei) VALUES (12, to_date('25-09-1974', 'dd-mm-yyyy'), '16:47 hs', 30, 2);
+
+INSERT INTO ENTREGA (id_ped, data_entrega, horario_entrega, num_nf_entrega, id_vei) VALUES (13, to_date('25-04-1987', 'dd-mm-yyyy'), '11:26 hs', 28, 14);
+
+INSERT INTO ENTREGA (id_ped, data_entrega, horario_entrega, num_nf_entrega, id_vei) VALUES (14, to_date('17-01-2010', 'dd-mm-yyyy'), '04:16 hs', 6, 30);
+
+INSERT INTO ENTREGA (id_ped, data_entrega, horario_entrega, num_nf_entrega, id_vei) VALUES (15, to_date('13-12-1962', 'dd-mm-yyyy'), '11:55 hs', 28, 4);
+
+INSERT INTO ENTREGA (id_ped, data_entrega, horario_entrega, num_nf_entrega, id_vei) VALUES (16, to_date('09-09-2009', 'dd-mm-yyyy'), '04:54 hs', 24, 23);
+
+INSERT INTO COLETA (id_ped, data_coleta, horario_coleta, num_nf_coleta, id_vei) VALUES (17, to_date('11-09-1991', 'dd-mm-yyyy'), '02:15 hs', 28, 7);
+
+INSERT INTO COLETA (id_ped, data_coleta, horario_coleta, num_nf_coleta, id_vei) VALUES (18, to_date('08-07-1976', 'dd-mm-yyyy'), '18:08 hs', 10, 13);
+
+INSERT INTO COLETA (id_ped, data_coleta, horario_coleta, num_nf_coleta, id_vei) VALUES (19, to_date('22-08-1966', 'dd-mm-yyyy'), '03:34 hs', 3, 13);
+
+INSERT INTO COLETA (id_ped, data_coleta, horario_coleta, num_nf_coleta, id_vei) VALUES (20, to_date('26-10-1993', 'dd-mm-yyyy'), '13:59 hs', 11, 14);
+
+INSERT INTO COLETA (id_ped, data_coleta, horario_coleta, num_nf_coleta, id_vei) VALUES (21, to_date('30-12-1965', 'dd-mm-yyyy'), '09:15 hs', 12, 1);
+
+INSERT INTO COLETA (id_ped, data_coleta, horario_coleta, num_nf_coleta, id_vei) VALUES (22, to_date('04-09-1966', 'dd-mm-yyyy'), '11:25 hs', 8, 32);
+
+INSERT INTO COLETA (id_ped, data_coleta, horario_coleta, num_nf_coleta, id_vei) VALUES (23, to_date('16-04-2008', 'dd-mm-yyyy'), '13:59 hs', 1, 31);
+
+INSERT INTO COLETA (id_ped, data_coleta, horario_coleta, num_nf_coleta, id_vei) VALUES (24, to_date('29-06-1994', 'dd-mm-yyyy'), '00:38 hs', 23, 14);
+
+INSERT INTO COLETA (id_ped, data_coleta, horario_coleta, num_nf_coleta, id_vei) VALUES (25, to_date('10-12-1965', 'dd-mm-yyyy'), '15:23 hs', 10, 2);
+
+INSERT INTO COLETA (id_ped, data_coleta, horario_coleta, num_nf_coleta, id_vei) VALUES (26, to_date('03-11-1981', 'dd-mm-yyyy'), '22:22 hs', 3, 8);
+
+INSERT INTO COLETA (id_ped, data_coleta, horario_coleta, num_nf_coleta, id_vei) VALUES (27, to_date('17-11-2008', 'dd-mm-yyyy'), '03:23 hs', 19, 22);
+
+INSERT INTO COLETA (id_ped, data_coleta, horario_coleta, num_nf_coleta, id_vei) VALUES (28, to_date('07-04-2002', 'dd-mm-yyyy'), '09:42 hs', 6, 7);
+
+INSERT INTO COLETA (id_ped, data_coleta, horario_coleta, num_nf_coleta, id_vei) VALUES (29, to_date('29-03-1968', 'dd-mm-yyyy'), '09:31 hs', 19, 17);
+
+INSERT INTO COLETA (id_ped, data_coleta, horario_coleta, num_nf_coleta, id_vei) VALUES (30, to_date('01-10-1979', 'dd-mm-yyyy'), '12:40 hs', 32, 16);
+
+INSERT INTO COLETA (id_ped, data_coleta, horario_coleta, num_nf_coleta, id_vei) VALUES (31, to_date('18-02-1967', 'dd-mm-yyyy'), '22:54 hs', 2, 24);
+
+INSERT INTO COLETA (id_ped, data_coleta, horario_coleta, num_nf_coleta, id_vei) VALUES (32, to_date('24-06-2008', 'dd-mm-yyyy'), '19:08 hs', 20, 1);
+
+INSERT INTO CAMINHAO (id_vei, num_eixos, max_ton, tara_peso, peso_liquido, CARROCERIA, BAU) VALUES (1, 3, '10 ton', '18 ton', '9 ton', 16, 23);
+
+INSERT INTO CAMINHAO (id_vei, num_eixos, max_ton, tara_peso, peso_liquido, CARROCERIA, BAU) VALUES (2, 6, '23 ton', '19 ton', '17 ton', 7, 16);
+
+INSERT INTO CAMINHAO (id_vei, num_eixos, max_ton, tara_peso, peso_liquido, CARROCERIA, BAU) VALUES (3, 4, '12 ton', '10 ton', '22 ton', 14, 6);
+
+INSERT INTO CAMINHAO (id_vei, num_eixos, max_ton, tara_peso, peso_liquido, CARROCERIA, BAU) VALUES (4, 6, '24 ton', '16 ton', '20 ton', 12, 28);
+
+INSERT INTO CAMINHAO (id_vei, num_eixos, max_ton, tara_peso, peso_liquido, CARROCERIA, BAU) VALUES (5, 3, '26 ton', '18 ton', '16 ton', 18, 4);
+
+INSERT INTO CAMINHAO (id_vei, num_eixos, max_ton, tara_peso, peso_liquido, CARROCERIA, BAU) VALUES (6, 3, '18 ton', '16 ton', '13 ton', 25, 12);
+
+INSERT INTO CAMINHAO (id_vei, num_eixos, max_ton, tara_peso, peso_liquido, CARROCERIA, BAU) VALUES (7, 3, '10 ton', '12 ton', '20 ton', 29, 20);
+
+INSERT INTO CAMINHAO (id_vei, num_eixos, max_ton, tara_peso, peso_liquido, CARROCERIA, BAU) VALUES (8, 5, '17 ton', '18 ton', '12 ton', 10, 2);
+
+INSERT INTO CAMINHAO (id_vei, num_eixos, max_ton, tara_peso, peso_liquido, CARROCERIA, BAU) VALUES (9, 6, '25 ton', '11 ton', '9 ton', 20, 25);
+
+INSERT INTO CAMINHAO (id_vei, num_eixos, max_ton, tara_peso, peso_liquido, CARROCERIA, BAU) VALUES (10, 4, '23 ton', '13 ton', '17 ton', 26, 6);
+
+INSERT INTO CAMINHAO (id_vei, num_eixos, max_ton, tara_peso, peso_liquido, CARROCERIA, BAU) VALUES (11, 4, '12 ton', '8 ton', '22 ton', 14, 8);
+
+INSERT INTO CAMINHAO (id_vei, num_eixos, max_ton, tara_peso, peso_liquido, CARROCERIA, BAU) VALUES (12, 5, '10 ton', '17 ton', '22 ton', 8, 4);
+
+INSERT INTO CAMINHAO (id_vei, num_eixos, max_ton, tara_peso, peso_liquido, CARROCERIA, BAU) VALUES (13, 5, '20 ton', '19 ton', '9 ton', 24, 31);
+
+INSERT INTO CAMINHAO (id_vei, num_eixos, max_ton, tara_peso, peso_liquido, CARROCERIA, BAU) VALUES (14, 6, '18 ton', '18 ton', '14 ton', 5, 22);
+
+INSERT INTO CAMINHAO (id_vei, num_eixos, max_ton, tara_peso, peso_liquido, CARROCERIA, BAU) VALUES (15, 4, '11 ton', '16 ton', '19 ton', 30, 6);
+
+INSERT INTO CAMINHAO (id_vei, num_eixos, max_ton, tara_peso, peso_liquido, CARROCERIA, BAU) VALUES (16, 3, '18 ton', '16 ton', '9 ton', 8, 7);
+
+INSERT INTO FURGAO (id_vei, num_portas, max_capacidade, max_itens) VALUES (17, 4, '1 ton', 13 );
+
+INSERT INTO FURGAO (id_vei, num_portas, max_capacidade, max_itens) VALUES (18, 4, '2 ton', 18 );
+
+INSERT INTO FURGAO (id_vei, num_portas, max_capacidade, max_itens) VALUES (19, 4, '2 ton', 21 );
+
+INSERT INTO FURGAO (id_vei, num_portas, max_capacidade, max_itens) VALUES (20, 2, '2 ton', 24 );
+
+INSERT INTO FURGAO (id_vei, num_portas, max_capacidade, max_itens) VALUES (21, 2, '2 ton', 17 );
+
+INSERT INTO FURGAO (id_vei, num_portas, max_capacidade, max_itens) VALUES (22, 3, '2 ton', 17 );
+
+INSERT INTO FURGAO (id_vei, num_portas, max_capacidade, max_itens) VALUES (23, 4, '1 ton', 20 );
+
+INSERT INTO FURGAO (id_vei, num_portas, max_capacidade, max_itens) VALUES (24, 4, '1 ton', 12 );
+
+INSERT INTO FURGAO (id_vei, num_portas, max_capacidade, max_itens) VALUES (25, 4, '2 ton', 13 );
+
+INSERT INTO FURGAO (id_vei, num_portas, max_capacidade, max_itens) VALUES (26, 2, '2 ton', 12 );
+
+INSERT INTO FURGAO (id_vei, num_portas, max_capacidade, max_itens) VALUES (27, 3, '2 ton', 12 );
+
+INSERT INTO FURGAO (id_vei, num_portas, max_capacidade, max_itens) VALUES (28, 4, '2 ton', 16 );
+
+INSERT INTO FURGAO (id_vei, num_portas, max_capacidade, max_itens) VALUES (29, 2, '2 ton', 10 );
+
+INSERT INTO FURGAO (id_vei, num_portas, max_capacidade, max_itens) VALUES (30, 4, '1 ton', 13 );
+
+INSERT INTO FURGAO (id_vei, num_portas, max_capacidade, max_itens) VALUES (31, 4, '2 ton', 11 );
+
+INSERT INTO FURGAO (id_vei, num_portas, max_capacidade, max_itens) VALUES (32, 2, '3 ton', 24 );
+
+INSERT INTO BAU (id_vei, id_ped, metros_cub) VALUES (1, 27, '4.64 m3');
+
+INSERT INTO BAU (id_vei, id_ped, metros_cub) VALUES (2, 12, '18.74 m3');
+
+INSERT INTO BAU (id_vei, id_ped, metros_cub) VALUES (3, 20, '3.5 m3');
+
+INSERT INTO BAU (id_vei, id_ped, metros_cub) VALUES (4, 30, '6.6 m3');
+
+INSERT INTO BAU (id_vei, id_ped, metros_cub) VALUES (5, 11, '12.31 m3');
+
+INSERT INTO BAU (id_vei, id_ped, metros_cub) VALUES (6, 16, '15.92 m3');
+
+INSERT INTO BAU (id_vei, id_ped, metros_cub) VALUES (7, 26, '2.94 m3');
+
+INSERT INTO BAU (id_vei, id_ped, metros_cub) VALUES (8, 1, '3.44 m3');
+
+INSERT INTO CARROCERIA (id_vei, id_ped, metros_quad) VALUES (9, 6, '19.20 m2');
+
+INSERT INTO CARROCERIA (id_vei, id_ped, metros_quad) VALUES (10, 9, '8.50 m2');
+
+INSERT INTO CARROCERIA (id_vei, id_ped, metros_quad) VALUES (11, 7, '11.73 m2');
+
+INSERT INTO CARROCERIA (id_vei, id_ped, metros_quad) VALUES (12, 5, '20.15 m2');
+
+INSERT INTO CARROCERIA (id_vei, id_ped, metros_quad) VALUES (13, 21, '19.33 m2');
+
+INSERT INTO CARROCERIA (id_vei, id_ped, metros_quad) VALUES (14, 4, '6.2 m2');
+
+INSERT INTO CARROCERIA (id_vei, id_ped, metros_quad) VALUES (15, 28, '17.95 m2');
+
+INSERT INTO CARROCERIA (id_vei, id_ped, metros_quad) VALUES (16, 2, '2.61 m2');
+
+INSERT INTO AJUDANTE (id_funcionario, tipo_ajudante) VALUES ( 1, 'ajudante geral');
+
+INSERT INTO AJUDANTE (id_funcionario, tipo_ajudante) VALUES ( 2, 'ajudante geral');
+
+INSERT INTO AJUDANTE (id_funcionario, tipo_ajudante) VALUES ( 3, 'carregador');
+
+INSERT INTO AJUDANTE (id_funcionario, tipo_ajudante) VALUES ( 4, 'carregador');
+
+INSERT INTO AJUDANTE (id_funcionario, tipo_ajudante) VALUES ( 5, 'ajudante geral');
+
+INSERT INTO AJUDANTE (id_funcionario, tipo_ajudante) VALUES ( 6, 'ajudante geral');
+
+INSERT INTO AJUDANTE (id_funcionario, tipo_ajudante) VALUES ( 7, 'carregador');
+
+INSERT INTO AJUDANTE (id_funcionario, tipo_ajudante) VALUES ( 8, 'carregador');
+
+INSERT INTO AJUDANTE (id_funcionario, tipo_ajudante) VALUES ( 9, 'ajudante geral');
+
+INSERT INTO AJUDANTE (id_funcionario, tipo_ajudante) VALUES ( 10, 'ajudante geral');
+
+INSERT INTO AJUDANTE (id_funcionario, tipo_ajudante) VALUES ( 11, 'carregador');
+
+INSERT INTO AJUDANTE (id_funcionario, tipo_ajudante) VALUES ( 12, 'ajudante geral');
+
+INSERT INTO AJUDANTE (id_funcionario, tipo_ajudante) VALUES ( 13, 'ajudante geral');
+
+INSERT INTO AJUDANTE (id_funcionario, tipo_ajudante) VALUES ( 14, 'ajudante geral');
+
+INSERT INTO AJUDANTE (id_funcionario, tipo_ajudante) VALUES ( 15, 'carregador');
+
+INSERT INTO AJUDANTE (id_funcionario, tipo_ajudante) VALUES ( 16, 'ajudante geral');
+
+INSERT INTO MOTORISTA (id_funcionario, habilitacao_num, habilitacao_categoria, MOTORISTA_LEVE, MOTORISTA_PESADO) VALUES (17, '7065605618', 'B', 4, 32);
+
+INSERT INTO MOTORISTA (id_funcionario, habilitacao_num, habilitacao_categoria, MOTORISTA_LEVE, MOTORISTA_PESADO) VALUES (18, '6432156284', 'B', 6, 6);
+
+INSERT INTO MOTORISTA (id_funcionario, habilitacao_num, habilitacao_categoria, MOTORISTA_LEVE, MOTORISTA_PESADO) VALUES (19, '8442230315', 'D', 32, 22);
+
+INSERT INTO MOTORISTA (id_funcionario, habilitacao_num, habilitacao_categoria, MOTORISTA_LEVE, MOTORISTA_PESADO) VALUES (20, '1181418711', 'C', 4, 1);
+
+INSERT INTO MOTORISTA (id_funcionario, habilitacao_num, habilitacao_categoria, MOTORISTA_LEVE, MOTORISTA_PESADO) VALUES (21, '4727527188', 'C', 17, 25);
+
+INSERT INTO MOTORISTA (id_funcionario, habilitacao_num, habilitacao_categoria, MOTORISTA_LEVE, MOTORISTA_PESADO) VALUES (22, '1366133834', 'D', 3, 11);
+
+INSERT INTO MOTORISTA (id_funcionario, habilitacao_num, habilitacao_categoria, MOTORISTA_LEVE, MOTORISTA_PESADO) VALUES (23, '6042133337', 'A', 23, 27);
+
+INSERT INTO MOTORISTA (id_funcionario, habilitacao_num, habilitacao_categoria, MOTORISTA_LEVE, MOTORISTA_PESADO) VALUES (24, '6511846477', 'C', 10, 6);
+
+INSERT INTO MOTORISTA (id_funcionario, habilitacao_num, habilitacao_categoria, MOTORISTA_LEVE, MOTORISTA_PESADO) VALUES (25, '4744611121', 'C', 19, 17);
+
+INSERT INTO MOTORISTA (id_funcionario, habilitacao_num, habilitacao_categoria, MOTORISTA_LEVE, MOTORISTA_PESADO) VALUES (26, '4280266561', 'B', 27, 30);
+
+INSERT INTO MOTORISTA (id_funcionario, habilitacao_num, habilitacao_categoria, MOTORISTA_LEVE, MOTORISTA_PESADO) VALUES (27, '1458030272', 'C', 4, 20);
+
+INSERT INTO MOTORISTA (id_funcionario, habilitacao_num, habilitacao_categoria, MOTORISTA_LEVE, MOTORISTA_PESADO) VALUES (28, '1105237634', 'B', 9, 16);
+
+INSERT INTO MOTORISTA (id_funcionario, habilitacao_num, habilitacao_categoria, MOTORISTA_LEVE, MOTORISTA_PESADO) VALUES (29, '3618202438', 'A', 5, 11);
+
+INSERT INTO MOTORISTA (id_funcionario, habilitacao_num, habilitacao_categoria, MOTORISTA_LEVE, MOTORISTA_PESADO) VALUES (30, '7105522250', 'B', 20, 25);
+
+INSERT INTO MOTORISTA (id_funcionario, habilitacao_num, habilitacao_categoria, MOTORISTA_LEVE, MOTORISTA_PESADO) VALUES (31, '5270356514', 'C', 26, 32);
+
+INSERT INTO MOTORISTA (id_funcionario, habilitacao_num, habilitacao_categoria, MOTORISTA_LEVE, MOTORISTA_PESADO) VALUES (32, '4812666478', 'C', 21, 30);
+
+INSERT INTO MOTORISTA_LEVE (id_funcionario, tipo_veiculo_leve) VALUES (1, 'furgão');
+
+INSERT INTO MOTORISTA_LEVE (id_funcionario, tipo_veiculo_leve) VALUES (2, 'furgão');
+
+INSERT INTO MOTORISTA_LEVE (id_funcionario, tipo_veiculo_leve) VALUES (3, 'furgão');
+
+INSERT INTO MOTORISTA_LEVE (id_funcionario, tipo_veiculo_leve) VALUES (4, 'furgão');
+
+INSERT INTO MOTORISTA_LEVE (id_funcionario, tipo_veiculo_leve) VALUES (5, 'furgão');
+
+INSERT INTO MOTORISTA_LEVE (id_funcionario, tipo_veiculo_leve) VALUES (6, 'furgão');
+
+INSERT INTO MOTORISTA_LEVE (id_funcionario, tipo_veiculo_leve) VALUES (7, 'furgão');
+
+INSERT INTO MOTORISTA_LEVE (id_funcionario, tipo_veiculo_leve) VALUES (8, 'furgão');
+
+INSERT INTO MOTORISTA_PESADO (id_funcionario, tipo_veiculo_pesado1, tipo_veiculo_pesado2) VALUES (9, 'carroceria', 'baú');
+
+INSERT INTO MOTORISTA_PESADO (id_funcionario, tipo_veiculo_pesado1, tipo_veiculo_pesado2) VALUES (10, 'baú', 'carroceria');
+
+INSERT INTO MOTORISTA_PESADO (id_funcionario, tipo_veiculo_pesado1, tipo_veiculo_pesado2) VALUES (11, 'carroceria', 'baú');
+
+INSERT INTO MOTORISTA_PESADO (id_funcionario, tipo_veiculo_pesado1, tipo_veiculo_pesado2) VALUES (12, 'baú', '');
+
+INSERT INTO MOTORISTA_PESADO (id_funcionario, tipo_veiculo_pesado1, tipo_veiculo_pesado2) VALUES (13, 'baú', '');
+
+INSERT INTO MOTORISTA_PESADO (id_funcionario, tipo_veiculo_pesado1, tipo_veiculo_pesado2) VALUES (14, 'baú', 'carroceria');
+
+INSERT INTO MOTORISTA_PESADO (id_funcionario, tipo_veiculo_pesado1, tipo_veiculo_pesado2) VALUES (15, 'carroceria', '');
+
+INSERT INTO MOTORISTA_PESADO (id_funcionario, tipo_veiculo_pesado1, tipo_veiculo_pesado2) VALUES (16, 'baú', '');
+
+INSERT INTO dirige_caminhao (id_funcionario, id_vei) VALUES (9, 3);
+
+INSERT INTO dirige_caminhao (id_funcionario, id_vei) VALUES (10, 6);
+
+INSERT INTO dirige_caminhao (id_funcionario, id_vei) VALUES (11, 1);
+
+INSERT INTO dirige_caminhao (id_funcionario, id_vei) VALUES (12, 2);
+
+INSERT INTO dirige_caminhao (id_funcionario, id_vei) VALUES (13, 4);
+
+INSERT INTO dirige_caminhao (id_funcionario, id_vei) VALUES (14, 13);
+
+INSERT INTO dirige_caminhao (id_funcionario, id_vei) VALUES (15, 15);
+
+INSERT INTO dirige_caminhao (id_funcionario, id_vei) VALUES (16, 11);
+
+INSERT INTO dirige_furgao (id_funcionario, id_vei) VALUES (1, 27);
+
+INSERT INTO dirige_furgao (id_funcionario, id_vei) VALUES (2, 30);
+
+INSERT INTO dirige_furgao (id_funcionario, id_vei) VALUES (3, 25);
+
+INSERT INTO dirige_furgao (id_funcionario, id_vei) VALUES (4, 24);
+
+INSERT INTO dirige_furgao (id_funcionario, id_vei) VALUES (5, 28);
+
+INSERT INTO dirige_furgao (id_funcionario, id_vei) VALUES (6, 20);
+
+INSERT INTO dirige_furgao (id_funcionario, id_vei) VALUES (7, 17);
+
+INSERT INTO dirige_furgao (id_funcionario, id_vei) VALUES (8, 21);
+
+INSERT INTO ajuda_caminhao (id_funcionario, id_vei) VALUES (1, 12);
+
+INSERT INTO ajuda_caminhao (id_funcionario, id_vei) VALUES (2, 4);
+
+INSERT INTO ajuda_caminhao (id_funcionario, id_vei) VALUES (3, 15);
+
+INSERT INTO ajuda_caminhao (id_funcionario, id_vei) VALUES (4, 11);
+
+INSERT INTO ajuda_caminhao (id_funcionario, id_vei) VALUES (5, 7);
+
+INSERT INTO ajuda_caminhao (id_funcionario, id_vei) VALUES (6, 14);
+
+INSERT INTO ajuda_caminhao (id_funcionario, id_vei) VALUES (7, 3);
+
+INSERT INTO ajuda_caminhao (id_funcionario, id_vei) VALUES (8, 10);
+
+INSERT INTO ajuda_caminhao (id_funcionario, id_vei) VALUES (9, 6);
+
+INSERT INTO ajuda_caminhao (id_funcionario, id_vei) VALUES (10, 2);
+
+INSERT INTO ajuda_caminhao (id_funcionario, id_vei) VALUES (11, 13);
+
+INSERT INTO ajuda_caminhao (id_funcionario, id_vei) VALUES (12, 9);
+
+INSERT INTO ajuda_caminhao (id_funcionario, id_vei) VALUES (13, 1);
+
+INSERT INTO ajuda_caminhao (id_funcionario, id_vei) VALUES (14, 5);
+
+INSERT INTO ajuda_caminhao (id_funcionario, id_vei) VALUES (15, 8);
+
+INSERT INTO ajuda_caminhao (id_funcionario, id_vei) VALUES (16, 16);
+

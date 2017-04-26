@@ -1,0 +1,532 @@
+_____________________________________________________________
+
+       Dictionary report
+
+       Project             Projeto Transpotadora
+_____________________________________________________________
+
+
+
+                        schema Transportadora_ER/1 / TranspLBD
+                           line: 3520:15
+
+   ajuda_caminhao
+      MappingOID: 288
+      line: 3520:25
+      id_funcionario: varchar (9)
+         MappingOID: 242
+         line: 3520:26
+      id_vei: varchar (9)
+         MappingOID: 171
+         line: 3520:27
+      id: id_vei, id_funcionario
+         MappingOID: 3297
+         line: 3520:28,3520:302
+         access key
+            MappingOID: 3297
+            line: 3520:28,3520:302
+      equ: id_vei = CAMINHAO.id_vei
+         MappingOID: 3295
+         line: 3520:168
+      ref: id_funcionario -> AJUDANTE.id_funcionario
+         MappingOID: 3293
+         line: 3520:172,3520:305
+         access key
+            MappingOID: 3293
+            line: 3520:172,3520:305
+   AJUDANTE
+      MappingOID: 236
+      line: 3520:30
+      id_funcionario: varchar (9)
+         MappingOID: 242
+         line: 3520:31
+      tipo_ajudante: varchar (10)
+         MappingOID: 268
+         line: 3520:32
+      id: id_funcionario
+         MappingOID: 3220
+         line: 3520:33,3520:174,3520:176,3520:308
+         ref: ->  FUNCIONARIO.id_funcionario
+         access key
+            MappingOID: 3220
+            line: 3520:33,3520:174,3520:176,3520:308
+   BAU
+      MappingOID: 167
+      line: 3520:35
+      id_vei: varchar (9)
+         MappingOID: 171
+         line: 3520:36
+      id_ped[0-1]: varchar (9)
+         MappingOID: 115
+         line: 3520:37
+      metros_cub: num (9)
+         MappingOID: 191
+         line: 3520:38
+      id: id_vei
+         MappingOID: 3251
+         line: 3520:40,3520:184,3520:238,3520:314
+         ref: ->  CAMINHAO.id_vei
+         access key
+            MappingOID: 3251
+            line: 3520:40,3520:184,3520:238,3520:314
+      id': id_ped
+         MappingOID: 205
+         line: 3520:39,3520:180,3520:311
+         equ: =  COLETA.id_ped
+         access key
+            MappingOID: 205
+            line: 3520:39,3520:180,3520:311
+   CAMINHAO
+      MappingOID: 163
+      line: 3520:42,3520:192,3520:196
+      id_vei: varchar (9)
+         MappingOID: 171
+         line: 3520:43
+      num_eixos: num (9)
+         MappingOID: 177
+         line: 3520:44
+      max_ton: num (10)
+         MappingOID: 179
+         line: 3520:45
+      tara_peso: num (9)
+         MappingOID: 181
+         line: 3520:46
+      peso_liquido: num (9)
+         MappingOID: 183
+         line: 3520:47
+      «subt» CARROCERIA[0-1]: varchar (9)
+         MappingOID: 171
+         Stereotype: subt
+         line: 3520:48
+      «subt» BAU[0-1]: varchar (9)
+         MappingOID: 171
+         Stereotype: subt
+         line: 3520:49
+      id: id_vei
+         MappingOID: 3236
+         line: 3520:50,3520:170,3520:186,3520:200,3520:210,3520:276,3520:317
+         ref: ->  FROTA.id_vei
+         access key
+            MappingOID: 3236
+            line: 3520:50,3520:170,3520:186,3520:200,3520:210,3520:276,3520:317
+      exactly one: CARROCERIA, BAU
+         MappingOID: 3252
+         line: 3520:188
+   CARROCERIA
+      MappingOID: 169
+      line: 3520:52
+      id_vei: varchar (9)
+         MappingOID: 171
+         line: 3520:53
+      id_ped[0-1]: varchar (9)
+         MappingOID: 115
+         line: 3520:54
+      metros_quad: num (9)
+         MappingOID: 195
+         line: 3520:55
+      id: id_vei
+         MappingOID: 3250
+         line: 3520:57,3520:208,3520:323
+         ref: ->  CAMINHAO.id_vei
+         access key
+            MappingOID: 3250
+            line: 3520:57,3520:208,3520:323
+      id': id_ped
+         MappingOID: 209
+         line: 3520:56,3520:204,3520:320
+         equ: =  ENTREGA.id_ped
+         access key
+            MappingOID: 209
+            line: 3520:56,3520:204,3520:320
+   CLIENTE
+      MappingOID: 95
+      line: 3520:59,3520:212
+      id_cli: varchar (9)
+         MappingOID: 103
+         line: 3520:60
+      nome: varchar (45)
+         MappingOID: 105
+         line: 3520:61
+      sobrenome: varchar (45)
+         MappingOID: 107
+         line: 3520:62
+      rua: varchar (45)
+         MappingOID: 109
+         line: 3520:63
+      numero: varchar (10)
+         MappingOID: 111
+         line: 3520:64
+      cidade: varchar (45)
+         MappingOID: 113
+         line: 3520:65
+      email[0-1]: varchar (45)
+         MappingOID: 578
+         line: 3520:66
+      id: id_cli
+         MappingOID: 151
+         line: 3520:67,3520:296,3520:326
+         access key
+            MappingOID: 151
+            line: 3520:67,3520:296,3520:326
+   COLETA
+      MappingOID: 101
+      line: 3520:69,3520:216
+      id_ped: varchar (9)
+         MappingOID: 115
+         line: 3520:70
+      data_coleta: date (1)
+         MappingOID: 137
+         line: 3520:71
+      horario_coleta: varchar (5)
+         MappingOID: 139
+         line: 3520:72
+      num_nf_coleta: char (1)
+         MappingOID: 141
+         line: 3520:73
+      id_vei: varchar (9)
+         MappingOID: 171
+         line: 3520:74
+      id: id_ped
+         MappingOID: 3190
+         line: 3520:75,3520:182,3520:220,3520:329
+         ref: ->  PEDIDO.id_ped
+         access key
+            MappingOID: 3190
+            line: 3520:75,3520:182,3520:220,3520:329
+      ref: id_vei -> FURGAO.id_vei
+         MappingOID: 248
+         line: 3520:224,3520:332
+         access key
+            MappingOID: 248
+            line: 3520:224,3520:332
+   DEPENDENTE
+      MappingOID: 308
+      line: 3520:77
+   note: Entidade Fraca: Dependente
+      nome: varchar (45)
+         MappingOID: 321
+         line: 3520:78
+      sobrenome: varchar (45)
+         MappingOID: 323
+         line: 3520:79
+      parentesco: varchar (15)
+         MappingOID: 325
+         line: 3520:80
+      data_nascimento: date (1)
+         MappingOID: 995
+         line: 3520:81
+      id: depende.FUNCIONARIO[*], nome
+         MappingOID: 1018
+         line: 3520:82,3520:335
+         access key
+            MappingOID: 1018
+            line: 3520:82,3520:335
+      role:  [1-2] in depende
+         MappingOID: 1013
+   dirige_caminhao
+      MappingOID: 286
+      line: 3520:140
+      id_funcionario: varchar (9)
+         MappingOID: 242
+         line: 3520:141
+      id_vei: varchar (9)
+         MappingOID: 171
+         line: 3520:142
+      id: id_vei, id_funcionario
+         MappingOID: 3284
+         line: 3520:143,3520:362
+         access key
+            MappingOID: 3284
+            line: 3520:143,3520:362
+      equ: id_vei = CAMINHAO.id_vei
+         MappingOID: 3282
+         line: 3520:274
+      ref: id_funcionario -> MOTORISTA_PESADO.id_funcionario
+         MappingOID: 3280
+         line: 3520:278,3520:365
+         access key
+            MappingOID: 3280
+            line: 3520:278,3520:365
+   dirige_furgao
+      MappingOID: 284
+      line: 3520:145
+      id_funcionario: varchar (9)
+         MappingOID: 242
+         line: 3520:146
+      id_vei: varchar (9)
+         MappingOID: 171
+         line: 3520:147
+      id: id_vei, id_funcionario
+         MappingOID: 3271
+         line: 3520:148,3520:368
+         access key
+            MappingOID: 3271
+            line: 3520:148,3520:368
+      equ: id_vei = FURGAO.id_vei
+         MappingOID: 3269
+         line: 3520:282
+      ref: id_funcionario -> MOTORISTA_LEVE.id_funcionario
+         MappingOID: 3267
+         line: 3520:286,3520:371
+         access key
+            MappingOID: 3267
+            line: 3520:286,3520:371
+   ENTREGA
+      MappingOID: 99
+      line: 3520:84,3520:228
+      id_ped: varchar (9)
+         MappingOID: 115
+         line: 3520:85
+      data_entrega: date (1)
+         MappingOID: 131
+         line: 3520:86
+      horario_entrega: varchar (5)
+         MappingOID: 133
+         line: 3520:87
+      num_nf_entrega: varchar (15)
+         MappingOID: 135
+         line: 3520:88
+      id_vei: varchar (9)
+         MappingOID: 171
+         line: 3520:89
+      id: id_ped
+         MappingOID: 3191
+         line: 3520:90,3520:206,3520:232,3520:338
+         ref: ->  PEDIDO.id_ped
+         access key
+            MappingOID: 3191
+            line: 3520:90,3520:206,3520:232,3520:338
+      ref: id_vei -> BAU.id_vei
+         MappingOID: 207
+         line: 3520:236,3520:341
+         access key
+            MappingOID: 207
+            line: 3520:236,3520:341
+   FROTA
+      MappingOID: 161
+      line: 3520:92
+   note: Entidade Frota.
+      id_vei: varchar (9)
+         MappingOID: 171
+         line: 3520:93
+      placa: varchar (15)
+         MappingOID: 173
+         line: 3520:94
+      max_velo: varchar (10)
+         MappingOID: 175
+         line: 3520:95
+      «subt» FURGAO[0-1]: varchar (9)
+         MappingOID: 171
+         Stereotype: subt
+         line: 3520:96
+      «subt» CAMINHAO[0-1]: varchar (9)
+         MappingOID: 171
+         Stereotype: subt
+         line: 3520:97
+      id: id_vei
+         MappingOID: 229
+         line: 3520:98,3520:202,3520:256,3520:344
+         access key
+            MappingOID: 229
+            line: 3520:98,3520:202,3520:256,3520:344
+      exclusive: FURGAO, CAMINHAO
+         MappingOID: 3237
+         line: 3520:240
+   FUNCIONARIO
+      MappingOID: 232
+      line: 3520:100
+   note: Entidade FUNCIONARIO.
+      id_funcionario: varchar (9)
+         MappingOID: 242
+         line: 3520:101
+      nome: varchar (45)
+         MappingOID: 244
+         line: 3520:102
+      sobrenome: varchar (45)
+         MappingOID: 246
+         line: 3520:103
+      rua: varchar (45)
+         MappingOID: 256
+         line: 3520:104
+      numero: varchar (10)
+         MappingOID: 258
+         line: 3520:105
+      cidade: varchar (45)
+         MappingOID: 260
+         line: 3520:106
+      salario: num (6)
+         MappingOID: 262
+         line: 3520:107
+      cargo: char (1)
+         MappingOID: 2912
+         line: 3520:108
+      data_admissao: date (1)
+         MappingOID: 270
+         line: 3520:109
+      «subt» MOTORISTA[0-1]: varchar (9)
+         MappingOID: 242
+         Stereotype: subt
+         line: 3520:110
+      «subt» AJUDANTE[0-1]: varchar (9)
+         MappingOID: 242
+         Stereotype: subt
+         line: 3520:111
+      id: id_funcionario
+         MappingOID: 327
+         line: 3520:112,3520:178,3520:264,3520:347
+         access key
+            MappingOID: 327
+            line: 3520:112,3520:178,3520:264,3520:347
+      exclusive: AJUDANTE, MOTORISTA
+         MappingOID: 3222
+         line: 3520:245
+      role:  [0-N] in depende
+         MappingOID: 1011
+   FURGAO
+      MappingOID: 165
+      line: 3520:114,3520:250
+      id_vei: varchar (9)
+         MappingOID: 171
+         line: 3520:115
+      num_portas: num (9)
+         MappingOID: 185
+         line: 3520:116
+      max_capacidade: varchar (10)
+         MappingOID: 187
+         line: 3520:117
+      max_itens: num (10)
+         MappingOID: 189
+         line: 3520:118
+      id: id_vei
+         MappingOID: 3235
+         line: 3520:119,3520:226,3520:254,3520:284,3520:350
+         ref: ->  FROTA.id_vei
+         access key
+            MappingOID: 3235
+            line: 3520:119,3520:226,3520:254,3520:284,3520:350
+   MOTORISTA
+      MappingOID: 234
+      line: 3520:121
+      id_funcionario: varchar (9)
+         MappingOID: 242
+         line: 3520:122
+      habilitacao_num: varchar (15)
+         MappingOID: 264
+         line: 3520:123
+      habilitacao_categoria: varchar (5)
+         MappingOID: 266
+         line: 3520:124
+      «subt» MOTORISTA_LEVE[0-1]: varchar (9)
+         MappingOID: 242
+         Stereotype: subt
+         line: 3520:125
+      «subt» MOTORISTA_PESADO[0-1]: varchar (9)
+         MappingOID: 242
+         Stereotype: subt
+         line: 3520:126
+      id: id_funcionario
+         MappingOID: 3221
+         line: 3520:127,3520:262,3520:268,3520:272,3520:353
+         ref: ->  FUNCIONARIO.id_funcionario
+         access key
+            MappingOID: 3221
+            line: 3520:127,3520:262,3520:268,3520:272,3520:353
+      exactly one: MOTORISTA_PESADO, MOTORISTA_LEVE
+         MappingOID: 3207
+         line: 3520:258
+   MOTORISTA_LEVE
+      MappingOID: 238
+      line: 3520:129
+      id_funcionario: varchar (9)
+         MappingOID: 242
+         line: 3520:130
+      tipo_veiculo_leve: varchar (10)
+         MappingOID: 272
+         line: 3520:131
+      id: id_funcionario
+         MappingOID: 3206
+         line: 3520:132,3520:266,3520:288,3520:356
+         ref: ->  MOTORISTA.id_funcionario
+         access key
+            MappingOID: 3206
+            line: 3520:132,3520:266,3520:288,3520:356
+   MOTORISTA_PESADO
+      MappingOID: 240
+      line: 3520:134
+      id_funcionario: varchar (9)
+         MappingOID: 242
+         line: 3520:135
+      tipo_veiculo_pesado1: char (1)
+         MappingOID: 274
+         line: 3520:136
+      tipo_veiculo_pesado2[0-1]: char (1)
+         MappingOID: 274
+         line: 3520:137
+      id: id_funcionario
+         MappingOID: 3205
+         line: 3520:138,3520:270,3520:280,3520:359
+         ref: ->  MOTORISTA.id_funcionario
+         access key
+            MappingOID: 3205
+            line: 3520:138,3520:270,3520:280,3520:359
+   PEDIDO
+      MappingOID: 97
+      line: 3520:150
+   note: Entidade PEDIDO.
+      id_ped: varchar (9)
+         MappingOID: 115
+         line: 3520:151
+      peso_ton: num (5,2)
+         MappingOID: 117
+         line: 3520:152
+      rua: varchar (45)
+         MappingOID: 119
+         line: 3520:153
+      numero: varchar (10)
+         MappingOID: 121
+         line: 3520:154
+      cidade: varchar (45)
+         MappingOID: 123
+         line: 3520:155
+      bairro: varchar (45)
+         MappingOID: 125
+         line: 3520:156
+      num_nf_ped: varchar (15)
+         MappingOID: 127
+         line: 3520:157
+      varlor_nf: num (10,2)
+         MappingOID: 129
+         line: 3520:158
+      id_cli: varchar (9)
+         MappingOID: 103
+         line: 3520:159
+      «subt» ENTREGA[0-1]: varchar (9)
+         MappingOID: 115
+         Stereotype: subt
+         line: 3520:160
+      «subt» COLETA[0-1]: varchar (9)
+         MappingOID: 115
+         Stereotype: subt
+         line: 3520:161
+      id: id_ped
+         MappingOID: 154
+         line: 3520:162,3520:222,3520:234,3520:374
+         access key
+            MappingOID: 154
+            line: 3520:162,3520:222,3520:234,3520:374
+      equ: id_cli = CLIENTE.id_cli
+         MappingOID: 143
+         line: 3520:294,3520:377
+         access key
+            MappingOID: 143
+            line: 3520:294,3520:377
+      exactly one: COLETA, ENTREGA
+         MappingOID: 3192
+         line: 3520:290
+
+   depende (
+      MappingOID: 1010
+       [0-N] : FUNCIONARIO
+         MappingOID: 1011
+       [1-2] : DEPENDENTE )
+         MappingOID: 1013

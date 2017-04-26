@@ -1,0 +1,33 @@
+Consulta 1:
+
+SELECT * 
+FROM FUNCIONARIO
+LEFT JOIN DEPENDENTE ON FUNCIONARIO.id_funcionario = DEPENDENTE.id_funcionario;
+
+Descrição: Recupera todas as informações de todos os funcionários, exibindo também as informações de seus dependentes, caso existam.
+
+Consulta 2:
+
+SELECT *
+FROM FUNCIONARIO
+WHERE salario = (SELECT MAX(salario) FROM FUNCIONARIO);
+
+Descrição: Recupera os dados do funcionário com o maior salário
+
+Consulta 3:
+
+SELECT *
+FROM ENTREGA
+INNER JOIN PEDIDO ON ENTREGA.id_ped = PEDIDO.id_ped
+ORDER BY data_entrega 
+LIMIT 10;
+
+Descrição: Recupera os dados das 10 entregas mais recentes
+
+Consulta 4:
+
+SELECT SUM(valor_nf) 
+FROM PEDIDO
+INNER JOIN COLETA ON PEDIDO.id_ped = COLETA.id_ped; 
+
+Descrição: Recupera a soma dos valores das notas fiscais de todas as coletas

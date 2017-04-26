@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Gerador Automático de Scripts SQL</title>
+</head>
+<body>
+	<h1>Gerador Automático de Scripts</h1>
+	<form class="gerar">
+		<p>Digite a quantidade de linhas que as tabelas deverão ter e, em seguida, clique para gerar as tabelas com o número de linhas especificado</p>
+		<input type="number" min='1' name='row_no'>
+		<button>Gerar</button>
+		<br>
+		<button type="button" class="selecionar-script">Selecionar Script</button>
+		<br>
+		<label for="generated-script">O script será gerado aqui:</label>
+		<br>
+		<!-- <textarea name="generated-script" id="generated-script" cols="100" rows="30" class="generated-script"></textarea> -->
+		<textarea style="background-color: #ddd; padding: 10px; box-sizing: border-box; width: 100%; height: 400px; resize: vertical;" id="generated-script"></textarea>
+	</form>
+	<script src="jquery.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
