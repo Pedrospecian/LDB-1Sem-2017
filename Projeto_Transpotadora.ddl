@@ -64,6 +64,7 @@ create table CLIENTE (
      numero varchar(10) not null,
      cidade varchar(45) not null,
      email varchar(45),
+     qte_pedidos numeric(9),
      constraint ID_CLIENTE_ID primary key (id_cli));
 
 create table COLETA (
@@ -157,6 +158,7 @@ create table PEDIDO (
      bairro varchar(45) not null,
      num_nf_ped varchar(15) not null,
      varlor_nf numeric(10,2) not null,
+     confirmado char not null,
      id_cli varchar(9) not null,
      ENTREGA varchar(9),
      COLETA varchar(9),

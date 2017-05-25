@@ -254,69 +254,69 @@ INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (31, 'XNJ-3
 
 INSERT INTO FROTA (id_vei, placa, max_velo, FURGAO, CAMINHAO) VALUES (32, 'DMN-3712', '200 km/h ', 29, 14);
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (1, '820 kg' ,'Rua Francisco Lopes', 133, 'São José dos Campos', 'Itaim Paulista', 25, 1570.00, 32 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (1, '820 kg' ,'Rua Francisco Lopes', 133, 'São José dos Campos', 'Itaim Paulista', 25, 1570.00, 32, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (2, '600 kg' ,'Rua Antonio Agu', 575, 'Santos', 'Itaim Paulista', 8, 110.00, 8 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (2, '600 kg' ,'Rua Antonio Agu', 575, 'Santos', 'Itaim Paulista', 8, 110.00, 8, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (3, '780 kg' ,'Rua Doutor Eduardo de Souza Aranha', 528, 'Jundiaí', 'Casa Verde', 17, 630.00, 10 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (3, '780 kg' ,'Rua Doutor Eduardo de Souza Aranha', 528, 'Jundiaí', 'Casa Verde', 17, 630.00, 10, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (4, '240 kg' ,'Rua Francisco Lopes', 386, 'São Bernardo', 'Pirituba', 9, 680.00, 2 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (4, '240 kg' ,'Rua Francisco Lopes', 386, 'São Bernardo', 'Pirituba', 9, 680.00, 2, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (5, '580 kg' ,'Rua Felipe Pinel', 779, 'Mogi das Cruzes', 'Lapa', 32, 710.00, 23 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (5, '580 kg' ,'Rua Felipe Pinel', 779, 'Mogi das Cruzes', 'Lapa', 32, 710.00, 23, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (6, '340 kg' ,'Rua José Pereira de Aquino', 918, 'Guarulhos', 'Casa Verde', 22, 1060.00, 3 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (6, '340 kg' ,'Rua José Pereira de Aquino', 918, 'Guarulhos', 'Casa Verde', 22, 1060.00, 3, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (7, '130 kg' ,'Rua Ferraz de Vasconcelos', 661, 'Santos', 'Liberdade', 12, 1090.00, 28 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (7, '130 kg' ,'Rua Ferraz de Vasconcelos', 661, 'Santos', 'Liberdade', 12, 1090.00, 28, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (8, '570 kg' ,'Rua Alto do Bonfim', 807, 'Guarulhos', 'Penha', 27, 80.00, 23 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (8, '570 kg' ,'Rua Alto do Bonfim', 807, 'Guarulhos', 'Penha', 27, 80.00, 23, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (9, '470 kg' ,'Rua Ulderico Giulietti', 283, 'São Bernardo', 'Vila Madalena', 22, 650.00, 20 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (9, '470 kg' ,'Rua Ulderico Giulietti', 283, 'São Bernardo', 'Vila Madalena', 22, 650.00, 20, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (10, '470 kg' ,'Rua Claudi Novaes', 969, 'São Bernardo', 'Pirituba', 9, 1450.00, 19 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (10, '470 kg' ,'Rua Claudi Novaes', 969, 'São Bernardo', 'Pirituba', 9, 1450.00, 19, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (11, '420 kg' ,'Rua do Patriarca', 776, 'Itaquaquecetuba', 'Itaim Paulista', 22, 1840.00, 32 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (11, '420 kg' ,'Rua do Patriarca', 776, 'Itaquaquecetuba', 'Itaim Paulista', 22, 1840.00, 32, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (12, '830 kg' ,'Rua Eliseu Epaminondas', 449, 'Santo André', 'Casa Verde', 18, 1670.00, 13 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (12, '830 kg' ,'Rua Eliseu Epaminondas', 449, 'Santo André', 'Casa Verde', 18, 1670.00, 13, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (13, '870 kg' ,'Rua Barão de Mauá', 992, 'Santo André', 'Casa Verde', 22, 390.00, 26 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (13, '870 kg' ,'Rua Barão de Mauá', 992, 'Santo André', 'Casa Verde', 22, 390.00, 26, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (14, '330 kg' ,'Avenida Brasil', 755, 'Guarulhos', 'Vila Mariana', 19, 620.00, 23 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (14, '330 kg' ,'Avenida Brasil', 755, 'Guarulhos', 'Vila Mariana', 19, 620.00, 23, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (15, '930 kg' ,'Avenida Dom Pedro II', 320, 'Jundiaí', 'Penha', 3, 990.00, 11 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (15, '930 kg' ,'Avenida Dom Pedro II', 320, 'Jundiaí', 'Penha', 3, 990.00, 11, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (16, '340 kg' ,'Rua Dário Pereira', 237, 'Guarulhos', 'Itaim Paulista', 17, 150.00, 3 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (16, '340 kg' ,'Rua Dário Pereira', 237, 'Guarulhos', 'Itaim Paulista', 17, 150.00, 3, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (17, '920 kg' ,'Avenida Francisco Lopes', 1, 'São Bernardo', 'Itaim Paulista', 9, 1360.00, 31 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (17, '920 kg' ,'Avenida Francisco Lopes', 1, 'São Bernardo', 'Itaim Paulista', 9, 1360.00, 31, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (18, '370 kg' ,'Avenida André Azevedo', 506, 'Itaquaquecetuba', 'Vila Madalena', 15, 10.00, 29 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (18, '370 kg' ,'Avenida André Azevedo', 506, 'Itaquaquecetuba', 'Vila Madalena', 15, 10.00, 29, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (19, '580 kg' ,'Estrada Pedra Balão', 123, 'São Bernardo', 'Penha', 30, 180.00, 25 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (19, '580 kg' ,'Estrada Pedra Balão', 123, 'São Bernardo', 'Penha', 30, 180.00, 25, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (20, '1070 kg' ,'Rua Francisco Poliza', 486, 'São Paulo', 'Liberdade', 6, 1350.00, 12 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (20, '1070 kg' ,'Rua Francisco Poliza', 486, 'São Paulo', 'Liberdade', 6, 1350.00, 12, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (21, '180 kg' ,'Rua do Patriarca', 680, 'Santos', 'Lapa', 5, 370.00, 30 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (21, '180 kg' ,'Rua do Patriarca', 680, 'Santos', 'Lapa', 5, 370.00, 30, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (22, '800 kg' ,'Rua Francisco Lopes', 435, 'Jundiaí', 'Centro', 13, 1780.00, 27 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (22, '800 kg' ,'Rua Francisco Lopes', 435, 'Jundiaí', 'Centro', 13, 1780.00, 27, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (23, '930 kg' ,'Rua Eliseu Epaminondas', 589, 'Itaquaquecetuba', 'Penha', 26, 40.00, 4 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (23, '930 kg' ,'Rua Eliseu Epaminondas', 589, 'Itaquaquecetuba', 'Penha', 26, 40.00, 4, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (24, '740 kg' ,'Rua Beto Dandini', 281, 'São Bernardo', 'Mooca', 18, 930.00, 12 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (24, '740 kg' ,'Rua Beto Dandini', 281, 'São Bernardo', 'Mooca', 18, 930.00, 12, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (25, '400 kg' ,'Avenida Brasil', 612, 'Mogi das Cruzes', 'Casa Verde', 23, 1880.00, 26 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (25, '400 kg' ,'Avenida Brasil', 612, 'Mogi das Cruzes', 'Casa Verde', 23, 1880.00, 26, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (26, '590 kg' ,'Rua Doutor Eduardo de Souza Aranha', 139, 'São Paulo', 'Casa Verde', 8, 1820.00, 24 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (26, '590 kg' ,'Rua Doutor Eduardo de Souza Aranha', 139, 'São Paulo', 'Casa Verde', 8, 1820.00, 24, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (27, '650 kg' ,'Rua da Conceição', 503, 'Mogi das Cruzes', 'Penha', 22, 1860.00, 32 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (27, '650 kg' ,'Rua da Conceição', 503, 'Mogi das Cruzes', 'Penha', 22, 1860.00, 32, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (28, '1050 kg' ,'Rua Dário Pereira', 1000, 'São José dos Campos', 'Pirituba', 27, 1350.00, 8 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (28, '1050 kg' ,'Rua Dário Pereira', 1000, 'São José dos Campos', 'Pirituba', 27, 1350.00, 8, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (29, '440 kg' ,'Rua Antonio Agu', 517, 'São José dos Campos', 'Vila Mariana', 6, 640.00, 26 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (29, '440 kg' ,'Rua Antonio Agu', 517, 'São José dos Campos', 'Vila Mariana', 6, 640.00, 26, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (30, '1010 kg' ,'Rua Fernando Veiga', 929, 'São José dos Campos', 'Casa Verde', 19, 330.00, 5 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (30, '1010 kg' ,'Rua Fernando Veiga', 929, 'São José dos Campos', 'Casa Verde', 19, 330.00, 5, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (31, '360 kg' ,'Avenida Paulista', 759, 'Itaquaquecetuba', 'Centro', 11, 1500.00, 18 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (31, '360 kg' ,'Avenida Paulista', 759, 'Itaquaquecetuba', 'Centro', 11, 1500.00, 18, '0' );
 
-INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli) VALUES (32, '140 kg' ,'Rua Francisco Lopes', 129, 'São Bernardo', 'Mooca', 17, 240.00, 32 );
+INSERT INTO PEDIDO (id_ped, peso_ton, rua, numero, cidade, bairro, num_nf_ped, varlor_nf, id_cli, confirmado) VALUES (32, '140 kg' ,'Rua Francisco Lopes', 129, 'São Bernardo', 'Mooca', 17, 240.00, 32, '0' );
 
 INSERT INTO ENTREGA (id_ped, data_entrega, horario_entrega, num_nf_entrega, id_vei) VALUES (1, to_date('15-01-1973', 'dd-mm-yyyy'), '09:23 hs', 29, 6);
 
