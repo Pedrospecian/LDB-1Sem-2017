@@ -109,6 +109,7 @@ create table FUNCIONARIO (
      salario numeric(6) not null,
      cargo char(1) not null,
      data_admissao date not null,
+     data_nascimento date not null,
      MOTORISTA varchar(9),
      AJUDANTE varchar(9),
      constraint ID_FUNCIONARIO_ID primary key (id_funcionario));
