@@ -1,0 +1,7 @@
+Código para criação da visão:
+
+CREATE VIEW view_seguranca AS
+	SELECT * FROM CLIENTE AS c
+	INNER JOIN PEDIDO AS p ON p.id_cli = c.id_cli
+	INNER JOIN ENTREGA AS e ON e.id_ped = p.id_ped
+	INNER JOIN COLETA AS c ON c.id_ped = p.id_ped;
