@@ -1,0 +1,31 @@
+Enunciado do requisito não funcional: "Os funcionários poderão realizar consultas ao BD o 
+
+qual foi desenvolvido em um SGBD Postgresql para visualizar todos os clientes, ou seja, se 
+
+eles estão associados ou não ao sistema. Assim, esse SGBD poderá, ser editado para atualizar 
+
+dados, com mudança de endereço de algum cliente, alteração da data de entrega ou coleta, 
+
+entre outras"
+
+Solução: Necessita-se de uma view que possa armazenar os dados relacionados ao pedido para que seja possível realizar uma consulta SQL que possua as informações de coleta e entrega dos pedidos.
+
+CREATE VIEW view_integridade AS
+(select *
+from pedido,entrega
+where pedido.id_ped = entrega.id_ped)
+union 
+(select *
+from entrega, coleta
+where entrega.id_ped = agencia.id_ped)
+
+Definição e funcionamento: 
+
+	Salva a consulta que fornece os dados para alteração de entregas e coletas dos pedidos. Essa view é importante para as consultas que envolvem atualização ou visualização das entregas e coletas dos pedidos. De forma de que essa view esteja disponibilizada para um funcionário utilizador do SGBD que tenha permissão de visualizar e atualizar dados de coletas e entregas de pedidos. De forma que a restrição de segurança do banco seja mantida ao se fazer atualizações e de forma que possa ser acessada pelo sgbd apenas por pessoas que possuem autorização.
+
+	Dessa forma colocamos uma restrição nas consultas relacionadas às coletas e entregas, evitando problemas de integridade e anomalias no banco. A view agrupa as informações referentes ao armazenamento das informações que devem ser alteradas quando um funcionário quiser consultar a coleta e entrega de pedido para saber como se realizou o processo da entrega do produto.
+
+
+Vantagem: 
+
+	Com a view_integridade definida possuimos um controle na integridade das informações quanto à transportação de um produto, podendo relacionar o pedido com os dados de sua coleta e entrega. Selecionando o uso dessa view para funcionários aptos a fazer atualizações de dados e consultar dados de pedidos, evitando falhas na integridade dessas informações por meio dessa visão.
