@@ -2,12 +2,12 @@ O PostgreSQL não dá suporte a asserções, portanto foram usadas funções par
 
 Regra de Negócio 1:
 
-CREATE OR REPLACE FUNCTION assertion_1_a(id_fun VARCHAR(9), dat_nasc DATE)
+CREATE OR REPLACE FUNCTION assertion_1_a()
     BEGIN
         IF (
-          (SELECT data_nascimento FROM FUNCIONARIO WHERE id_funcionario = id_fun < dat_nasc)
+          (SELECT data_nascimento FROM FUNCIONARIO WHERE id_funcionario = NEW.id_funcionario < NEW.data_nascimento)
           AND
-          (SELECT PARENTESCO FROM DEPENDENTE WHERE id_funcionario = id_fun) = 'filho(a)' 
+          (SELECT PARENTESCO FROM DEPENDENTE WHERE id_funcionario = NEW.id_funcionario) = 'filho(a)' 
         )
         THEN
           SELECT 'ERRO: A DATA DE NASCIMENTO DO DEPENDENTE É MAIOR QUE A DE SEU PAI/MÃE' as Msg
@@ -16,9 +16,9 @@ CREATE OR REPLACE FUNCTION assertion_1_a(id_fun VARCHAR(9), dat_nasc DATE)
         RETURN TRUE
     END;
 
-CREATE OR REPLACE FUNCTION assertion_1_b(id_fun VARCHAR(9), dat_nasc DATE)
+CREATE OR REPLACE FUNCTION assertion_1_b()
     BEGIN
-        IF(SELECT data_nascimento FROM DEPENDENTE WHERE PARENTESCO='filho(a)' AND id_funcionario = id_fun < dat_nasc )
+        IF(SELECT data_nascimento FROM DEPENDENTE WHERE PARENTESCO='filho(a)' AND id_funcionario = NEW.id_funcionario < NEW.data_nascimento )
         THEN
           SELECT 'ERRO: A DATA DE NASCIMENTO DO FUNCIONARIO É MAIOR QUE A DE SEU(S) FILHO(S)' as Msg
           RETURN FALSE
@@ -30,29 +30,29 @@ CREATE TRIGGER trigger_assertion_1_a
   BEFORE INSERT OR UPDATE
   ON DEPENDENTE
   FOR EACH ROW
-  EXECUTE PROCEDURE assertion_1_a(ROW.id_funcionario);
+  EXECUTE PROCEDURE assertion_1_a();
 
 CREATE TRIGGER trigger_assertion_1_b
   BEFORE INSERT OR UPDATE
   ON FUNCIONARIO
   FOR EACH ROW
-  EXECUTE PROCEDURE assertion_1_b(ROW.id_funcionario);
+  EXECUTE PROCEDURE assertion_1_b();
 
 Regra de Negócio 2:
 
-CREATE OR REPLACE FUNCTION assertion_2(id_fun VARCHAR(9))
+CREATE OR REPLACE FUNCTION assertion_2()
     BEGIN
         IF(
           (SELECT SALARIO FROM AJUDANTE
       INNER JOIN FUNCIONARIO ON FUNCIONARIO.id_funcionario = AJUDANTE.id_funcionario
-      WHERE AJUDANTE.id_funcionario = id_fun
+      WHERE AJUDANTE.id_funcionario = NEW.id_funcionario
       >
       SELECT SALARIO FROM MOTORISTA
       INNER JOIN FUNCIONARIO ON FUNCIONARIO.id_funcionario = MOTORISTA.id_funcionario)
 OR
 (SELECT SALARIO FROM MOTORISTA
       INNER JOIN FUNCIONARIO ON FUNCIONARIO.id_funcionario = AJUDANTE.id_funcionario
-      WHERE MOTORISTA.id_funcionario = id_fun
+      WHERE MOTORISTA.id_funcionario = NEW.id_funcionario
       <
       SELECT SALARIO FROM AJUDANTE
       INNER JOIN FUNCIONARIO ON FUNCIONARIO.id_funcionario = AJUDANTE.id_funcionario)
@@ -68,4 +68,4 @@ CREATE TRIGGER trigger_assertion_2
   BEFORE INSERT OR UPDATE
   ON FUNCIONARIO
   FOR EACH ROW
-  EXECUTE PROCEDURE assertion_2(ROW.id_funcionario);
+  EXECUTE PROCEDURE assertion_2();
