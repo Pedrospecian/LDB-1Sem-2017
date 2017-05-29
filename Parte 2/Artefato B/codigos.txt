@@ -1,0 +1,33 @@
+Regra de Negócio 1:
+
+CREATE OR REPLACE FUNCTION deleta_dependentes()
+	BEGIN
+		DELETE FROM DEPENDENTES WHERE id_funcionario = OLD.id_funcionario
+	END;
+
+CREATE TRIGGER trigger_deleta_dependentes
+	AFTER DELETE
+	ON FUNCIONARIO
+	FOR EACH ROW
+	EXECUTE PROCEDURE deleta_dependentes();
+
+Regra de Negócio 2:
+
+CREATE OR REPLACE FUNCTION atualiza_quantidade() 
+	BEGIN
+		IF OLD.confirmado = '0' AND NEW.confirmado = '1' THEN
+			UPDATE cliente SET qte_pedidos = OLD.qte_pedidos + 1 WHERE id_cli = NEW.id_cli;
+			RETURN void;
+		END IF;
+
+		IF OLD.confirmado = '1' AND NEW.confirmado = '0' THEN
+			UPDATE cliente SET qte_pedidos = OLD.qte_pedidos - 1 WHERE id_cli = NEW.id_cli;
+			RETURN void;
+		END IF;
+    END;
+
+CREATE TRIGGER quantifica_pedido
+	AFTER UPDATE
+	ON pedido
+	FOR EACH ROW
+	EXECUTE PROCEDURE atualiza_quantidade();
