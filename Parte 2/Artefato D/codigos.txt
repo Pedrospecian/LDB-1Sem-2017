@@ -1,0 +1,30 @@
+Código para criação da visão:
+
+CREATE VIEW view_otimizacao AS 
+	SELECT * FROM FUNCIONARIO AS func
+	INNER JOIN MOTORISTA AS mot ON mot.id_funcionario = func.id_funcionario
+	INNER JOIN MOTORISTA_LEVE AS motlev ON motlev.id_funcionario = mot.id_funcionario
+	INNER JOIN MOTORISTA_PESADO AS motpes ON motpes.id_funcionario = mot.id_funcionario
+	INNER JOIN dirige_furgao AS dir_fur ON dir_fur.id_funcionario = motpes.id_funcionario
+	INNER JOIN dirige_caminhao AS dir_cam ON dir_cam.id_funcionario = motpes.id_funcionario
+	INNER JOIN FURGAO AS furg ON furg.id_vei = dir_fur.id_vei
+	INNER JOIN CAMINHAO AS cami ON cami.id_vei = dir_cam.id_vei
+	INNER JOIN FROTA AS frotf ON frotf.id_vei = furg.id_vei
+	INNER JOIN FROTA AS frotc ON frotc.id_vei = cami.id_vei;
+
+Consultas que seriam beneficiadas pela visão:
+
+Consulta 1:
+
+SELECT id_funcionario, nome, sobrenome, habilitacao_num, habilitacao_categoria, id_vei, placa 
+FROM FUNCIONARIO AS f
+INNER JOIN MOTORISTA AS m ON m.id_funcionario = f.id_funcionario
+INNER JOIN dirige_caminhao AS dc ON dc.id_funcionario = m.id_funcionario
+INNER JOIN CAMINHAO AS c ON c.id_vei = dc.id_vei
+INNER JOIN FROTA AS frt ON frt.id_vei = c.id_vei;
+
+Consulta 2:
+
+SELECT id_vei, placa, max_velo, num_portas, max_capacidade, max_itens
+FROM FROTA
+INNER JOIN FURGAO ON FURGAO.id_vei = FROTA.id_vei;
