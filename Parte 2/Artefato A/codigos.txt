@@ -1,0 +1,71 @@
+O PostgreSQL não dá suporte a asserções, portanto foram usadas funções para satisfazer as duas regras de negócio. O código das funções seguem:
+
+Regra de Negócio 1:
+
+CREATE OR REPLACE FUNCTION assertion_1_a(id_fun VARCHAR(9), dat_nasc DATE)
+    BEGIN
+        IF (
+          (SELECT data_nascimento FROM FUNCIONARIO WHERE id_funcionario = id_fun < dat_nasc)
+          AND
+          (SELECT PARENTESCO FROM DEPENDENTE WHERE id_funcionario = id_fun) = 'filho(a)' 
+        )
+        THEN
+          SELECT 'ERRO: A DATA DE NASCIMENTO DO DEPENDENTE É MAIOR QUE A DE SEU PAI/MÃE' as Msg
+          RETURN FALSE
+        ENDIF
+        RETURN TRUE
+    END;
+
+CREATE OR REPLACE FUNCTION assertion_1_b(id_fun VARCHAR(9), dat_nasc DATE)
+    BEGIN
+        IF(SELECT data_nascimento FROM DEPENDENTE WHERE PARENTESCO='filho(a)' AND id_funcionario = id_fun < dat_nasc )
+        THEN
+          SELECT 'ERRO: A DATA DE NASCIMENTO DO FUNCIONARIO É MAIOR QUE A DE SEU(S) FILHO(S)' as Msg
+          RETURN FALSE
+        ENDIF
+        RETURN TRUE
+    END;
+
+CREATE TRIGGER trigger_assertion_1_a
+  BEFORE INSERT OR UPDATE
+  ON DEPENDENTE
+  FOR EACH ROW
+  EXECUTE PROCEDURE assertion_1_a(ROW.id_funcionario);
+
+CREATE TRIGGER trigger_assertion_1_b
+  BEFORE INSERT OR UPDATE
+  ON FUNCIONARIO
+  FOR EACH ROW
+  EXECUTE PROCEDURE assertion_1_b(ROW.id_funcionario);
+
+Regra de Negócio 2:
+
+CREATE OR REPLACE FUNCTION assertion_2(id_fun VARCHAR(9))
+    BEGIN
+        IF(
+          (SELECT SALARIO FROM AJUDANTE
+      INNER JOIN FUNCIONARIO ON FUNCIONARIO.id_funcionario = AJUDANTE.id_funcionario
+      WHERE AJUDANTE.id_funcionario = id_fun
+      >
+      SELECT SALARIO FROM MOTORISTA
+      INNER JOIN FUNCIONARIO ON FUNCIONARIO.id_funcionario = MOTORISTA.id_funcionario)
+OR
+(SELECT SALARIO FROM MOTORISTA
+      INNER JOIN FUNCIONARIO ON FUNCIONARIO.id_funcionario = AJUDANTE.id_funcionario
+      WHERE MOTORISTA.id_funcionario = id_fun
+      <
+      SELECT SALARIO FROM AJUDANTE
+      INNER JOIN FUNCIONARIO ON FUNCIONARIO.id_funcionario = AJUDANTE.id_funcionario)
+
+        )
+        THEN
+          SELECT 'ERRO: NENHUM AJUDANTE PODE TER O SALARIO MAIOR QUE O DE UM MOTORISTA' as Msg
+    RETURN FALSE;
+        ENDIF;
+  RETURN TRUE;
+    END;
+CREATE TRIGGER trigger_assertion_2
+  BEFORE INSERT OR UPDATE
+  ON FUNCIONARIO
+  FOR EACH ROW
+  EXECUTE PROCEDURE assertion_2(ROW.id_funcionario);
